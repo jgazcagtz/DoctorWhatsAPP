@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #e0f7fa; /* Azul claro para el fondo */
+}
+
+header {
+    background-color: #b2ebf2; /* Azul claro */
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.whatsapp-button {
+    display: block;
+    background-color: #25d366; /* Verde WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 220px;
+    font-weight: bold;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E; /* Verde oscuro de WhatsApp */
+}
+
+section {
+    padding: 20px;
+    background-color: #ffffff; /* Blanco para secciones */
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #b2ebf2; /* Azul claro */
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.decorative-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+    background-color: #ffffff; /* Blanco para la sección de imágenes */
+}
+
+.decorative-images img {
+    width: 500px; /* Tamaño uniforme de 500px de ancho */
+    height: 500px; /* Tamaño uniforme de 500px de alto */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsión */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
