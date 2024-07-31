@@ -74,6 +74,7 @@ footer {
     gap: 15px;
     padding: 20px;
     background-color: #ffffff; /* Blanco para la sección de imágenes */
+    margin-bottom: 20px; /* Espacio debajo de las imágenes antes del footer */
 }
 
 .decorative-images img {
